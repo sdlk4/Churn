@@ -1,4 +1,4 @@
-# Customer Lifetime Value (CLV) Prediction  
+# Customer Churn Prediction Model
 Machine learning model to predict customer churn using Logistic Regression. Includes a Streamlit dashboard for interactive visualization and insights.
 
 Customer churn prediction is vital for any subscription-based business that wants to:
@@ -30,18 +30,18 @@ You'll need Python 3.7+ and the packages listed in requirements.txt. The usual s
 
 # Installation
 1. Clone this repository:
-git clone https://github.com/sdlk/Customer-Churn-Prediction.git
-cd Customer-Churn-Prediction
+- git clone https://github.com/sdlk4/Customer-Churn-Prediction.git
+- cd Customer-Churn-Prediction
 
 2. Install the required packages:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 3. Run the automated pipeline:
-python preprocessing_model.py
-python train_and_evaluate.py
+- python preprocessing_model.py
+- python train_and_evaluate.py
 
 4. Launch the interactive dashboard:
-streamlit run app.py
+- streamlit run app.py
 
 That's it! The dashboard will open in your browser with interactive churn prediction insights.
 
